@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cona Coffee | Kavárna v srdci Hradce Králové</title>
+    <meta name="description" content="Cona Coffee - výjimečná kavárna v centru Hradce Králové. Specialty káva, domácí dezerty, snídaně a sdílená zasedací místnost.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cona Coffee | Kavárna v srdci Hradce Králové">
+    <meta property="og:description" content="Nevšední harmonie chutí s kouskem umění navrch. Specialty káva, domácí dezerty a inspirativní prostor.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.conacoffee.cz">
+    <meta property="og:image" content="https://d48-a.sdn.cz/d_48/c_img_oZ_A/nsLxLojIBfZuBJYWDP9Iyn/f991.jpeg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="logo">
+            <span class="logo-main">CONA</span>
+            <span class="logo-sub">COFFEE</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="#o-nas" class="nav-link">O nás</a></li>
+            <li><a href="#nabidka" class="nav-link">Nabídka</a></li>
+            <li><a href="#zasedacka" class="nav-link">Zasedačka</a></li>
+            <li><a href="#galerie" class="nav-link">Galerie</a></li>
+            <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-label">Kavárna v srdci Hradce Králové</p>
+            <h1 class="hero-title">Cona Coffee</h1>
+            <p class="hero-desc">Nevšední harmonie chutí s kouskem umění navrch</p>
+            <div class="hero-buttons">
+                <a href="#nabidka" class="btn btn-primary">Naše nabídka</a>
+                <a href="#zasedacka" class="btn btn-outline">Zasedací místnost</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scrollujte dolů</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- O nás -->
+    <section class="section" id="o-nas">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <img src="https://d48-a.sdn.cz/d_48/c_img_oZ_A/nsLxLojIBfZuBJYWDP9Iyn/f991.jpeg" alt="Interiér kavárny Cona Coffee">
+                    <div class="about-image-border"></div>
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <span class="section-label">O nás</span>
+                    <h2 class="section-title">Místo, kde se zastavíte<br>a vychutnáte si okamžik</h2>
+                    <p>Cona Coffee je stylová kavárna na Velkém náměstí v Hradci Králové. Naším posláním je vytvořit příjemné a klidné prostředí, kde na chvíli zapomenete na každodenní starosti.</p>
+                    <p>Nabízíme pečlivě vybranou specialty kávu z pražírny La Bohéme, exkluzivní čaje Harney &amp; Sons, domácí dezerty a čerstvé snídaně. V létě vás osvěží ovocné smoothie a domácí limonády.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+                            <div>
+                                <strong>Specialty káva</strong>
+                                <span>La Bohéme single-origin</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                            <div>
+                                <strong>Domácí výroba</strong>
+                                <span>Čerstvé dezerty každý den</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            <div>
+                                <strong>Sdílená zasedačka</strong>
+                                <span>Moderní prostor pro meetingy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nabídka -->
+    <section class="section section-alt" id="nabidka">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Nabídka</span>
+                <h2 class="section-title">Co u nás najdete</h2>
+                <p class="section-desc">Pečlivě vybraná káva, čerstvé pochutiny a sezónní speciality</p>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="kava">Káva & Nápoje</button>
+                <button class="menu-tab" data-tab="jidlo">Jídlo & Snídaně</button>
+                <button class="menu-tab" data-tab="dezerty">Dezerty</button>
+                <button class="menu-tab" data-tab="sezona">Sezónní</button>
+            </div>
+
+            <div class="menu-content">
+                <div class="menu-panel active" id="tab-kava">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Espresso</h3>
+                                <span class="menu-price">55 Kč</span>
+                            </div>
+                            <p>Klasické espresso z čerstvě pražených zrn</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Cappuccino</h3>
+                                <span class="menu-price">75 Kč</span>
+                            </div>
+                            <p>S jemnou mléčnou pěnou a latte art</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Filtrovaná káva</h3>
+                                <span class="menu-price">85 Kč</span>
+                            </div>
+                            <p>Single-origin, etiopské odrůdy</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Flat White</h3>
+                                <span class="menu-price">80 Kč</span>
+                            </div>
+                            <p>Dvojité espresso s hedvábnou texturou mléka</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Affogato</h3>
+                                <span class="menu-price">90 Kč</span>
+                            </div>
+                            <p>Vanilková zmrzlina s horkým espressem</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Horká čokoláda 72%</h3>
+                                <span class="menu-price">75 Kč</span>
+                            </div>
+                            <p>Prémiová hořká čokoláda s plným tělem</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Harney & Sons čaj</h3>
+                                <span class="menu-price">65 Kč</span>
+                            </div>
+                            <p>Exkluzivní výběr z prémiových čajů</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Víno</h3>
+                                <span class="menu-price">od 85 Kč</span>
+                            </div>
+                            <p>Výběr kvalitních vín</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-panel" id="tab-jidlo">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Snídaňové menu</h3>
+                                <span class="menu-price">169 Kč</span>
+                            </div>
+                            <p>Volba z několika variant + nápoj</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Bagel</h3>
+                                <span class="menu-price">125 Kč</span>
+                            </div>
+                            <p>Čerstvý bagel s různými náplněmi</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Panini</h3>
+                                <span class="menu-price">135 Kč</span>
+                            </div>
+                            <p>Teplé italské panini s výběrem sýrů a zeleniny</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Ciabatta</h3>
+                                <span class="menu-price">130 Kč</span>
+                            </div>
+                            <p>Křupavá ciabatta s prémiovou šunkou</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Bageta</h3>
+                                <span class="menu-price">115 Kč</span>
+                            </div>
+                            <p>Francouzská bageta s čerstvými ingrediencemi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-panel" id="tab-dezerty">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Cheesecake</h3>
+                                <span class="menu-price">95 Kč</span>
+                            </div>
+                            <p>Nejlepší cheesecake v Hradci Králové</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Čokoládový dort</h3>
+                                <span class="menu-price">95 Kč</span>
+                            </div>
+                            <p>Domácí čokoládový dort s bohatou chutí</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Muffiny</h3>
+                                <span class="menu-price">65 Kč</span>
+                            </div>
+                            <p>Čerstvě pečené, různé příchutě</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-top">
+                                <h3>Cookies</h3>
+                                <span class="menu-price">55 Kč</span>
+                            </div>
+                            <p>Domácí cookies s čokoládou</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-panel" id="tab-sezona">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="menu-badge">Léto</span>
+                            <div class="menu-item-top">
+                                <h3>Ovocné smoothie</h3>
+                                <span class="menu-price">95 Kč</span>
+                            </div>
+                            <p>Čerstvé ovoce mixované do krémové konzistence</p>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-badge">Léto</span>
+                            <div class="menu-item-top">
+                                <h3>Domácí limonáda</h3>
+                                <span class="menu-price">75 Kč</span>
+                            </div>
+                            <p>Osvěžující limonáda z čerstvých citrusů a bylin</p>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-badge">Léto</span>
+                            <div class="menu-item-top">
+                                <h3>Cold Brew</h3>
+                                <span class="menu-price">85 Kč</span>
+                            </div>
+                            <p>Studená extrakce, jemná a osvěžující</p>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-badge winter">Zima</span>
+                            <div class="menu-item-top">
+                                <h3>Svařené víno</h3>
+                                <span class="menu-price">75 Kč</span>
+                            </div>
+                            <p>S kořením a pomerančem</p>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-badge winter">Zima</span>
+                            <div class="menu-item-top">
+                                <h3>Prémiový zimní čaj</h3>
+                                <span class="menu-price">70 Kč</span>
+                            </div>
+                            <p>Speciální zimní směsi Harney & Sons</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Zasedací místnost -->
+    <section class="section section-meeting" id="zasedacka">
+        <div class="container">
+            <div class="meeting-grid">
+                <div class="meeting-content animate-on-scroll">
+                    <span class="section-label">Sdílená zasedací místnost</span>
+                    <h2 class="section-title">Profesionální prostor<br>pro vaše jednání</h2>
+                    <p>Nabízíme moderně vybavenou zasedací místnost přímo v srdci kavárny. Ideální pro firemní meetingy, workshopy, prezentace nebo nerušenou práci v inspirativním prostředí.</p>
+                    <div class="meeting-features">
+                        <div class="meeting-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            <span>Prezentační displej 55"</span>
+                        </div>
+                        <div class="meeting-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                            <span>Konferenční jednotka</span>
+                        </div>
+                        <div class="meeting-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                            <span>Wi-Fi a bezdrátové sdílení</span>
+                        </div>
+                        <div class="meeting-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            <span>Kapacita až 8 osob</span>
+                        </div>
+                    </div>
+                    <div class="meeting-pricing">
+                        <div class="meeting-price-tag">
+                            <span class="meeting-price-amount">350 Kč</span>
+                            <span class="meeting-price-unit">/ hod</span>
+                        </div>
+                        <div class="meeting-price-tag">
+                            <span class="meeting-price-amount">1 200 Kč</span>
+                            <span class="meeting-price-unit">/ 4 hod</span>
+                        </div>
+                        <div class="meeting-price-tag">
+                            <span class="meeting-price-amount">2 000 Kč</span>
+                            <span class="meeting-price-unit">/ den</span>
+                        </div>
+                    </div>
+                    <div class="meeting-buttons">
+                        <a href="zasedacka.html" class="btn btn-primary">Více informací</a>
+                        <a href="https://app.servisflow.cz/booking/connacoffe" target="_blank" rel="noopener" class="btn btn-outline">Rezervovat online</a>
+                    </div>
+                </div>
+                <div class="meeting-image animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=800&fit=crop" alt="Zasedací místnost Cona Coffee">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="section section-alt" id="galerie">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Galerie</span>
+                <h2 class="section-title">Nahlédněte k nám</h2>
+                <p class="section-desc">Stylový interiér, útulná atmosféra a výjimečná káva</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-wide animate-on-scroll">
+                    <img src="https://cdn.kudyznudy.cz/files/eb/eb4942fa-9c61-484a-8470-0f13d1084f43.webp" alt="Interiér kavárny" loading="lazy">
+                    <div class="gallery-overlay"><span>Interiér</span></div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://cdn.kudyznudy.cz/files/96/96dff62c-2054-4870-8d6f-b65f66707010.webp" alt="Cona Coffee" loading="lazy">
+                    <div class="gallery-overlay"><span>Cona Coffee</span></div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop" alt="Latte art" loading="lazy">
+                    <div class="gallery-overlay"><span>Latte Art</span></div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop" alt="Cappuccino" loading="lazy">
+                    <div class="gallery-overlay"><span>Cappuccino</span></div>
+                </div>
+                <div class="gallery-item gallery-wide animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&h=400&fit=crop" alt="Atmosféra kavárny" loading="lazy">
+                    <div class="gallery-overlay"><span>Atmosféra</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="section" id="kontakt">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Kontakt</span>
+                <h2 class="section-title">Navštivte nás</h2>
+                <p class="section-desc">Těšíme se na vás na Velkém náměstí</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card animate-on-scroll">
+                    <h3>Kde nás najdete</h3>
+                    <div class="contact-info">
+                        <div class="contact-row">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Velké náměstí 140/16a, 500 03 Hradec Králové</span>
+                        </div>
+                        <div class="contact-row">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            <div class="hours">
+                                <span>Po–Pá: 8:00 – 19:00</span>
+                                <span>So–Ne: 9:00 – 19:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-card contact-card-accent animate-on-scroll">
+                    <h3>Spojte se s námi</h3>
+                    <div class="contact-info">
+                        <div class="contact-row">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <a href="tel:+420777560652">+420 777 560 652</a>
+                        </div>
+                        <div class="contact-row">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <a href="mailto:info@conacoffee.cz">info@conacoffee.cz</a>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="https://www.instagram.com/conacoffeehk/" target="_blank" rel="noopener" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </a>
+                            <a href="https://cs-cz.facebook.com/conacoffeehk/" target="_blank" rel="noopener" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container animate-on-scroll">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.3!2d15.8327!3d50.2099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c2bde92e472d5%3A0x798904ac7b7dddab!2sCona%20coffee!5e0!3m2!1scs!2scz!4v1"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Mapa - Cona Coffee"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-main">CONA</span>
+                        <span class="logo-sub">COFFEE</span>
+                    </div>
+                    <p>Nevšední harmonie chutí v srdci Hradce Králové. Specialty káva, domácí dezerty a inspirativní prostor.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigace</h4>
+                    <ul>
+                        <li><a href="#o-nas">O nás</a></li>
+                        <li><a href="#nabidka">Nabídka</a></li>
+                        <li><a href="zasedacka.html">Zasedací místnost</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Otevírací doba</h4>
+                    <ul>
+                        <li>Po–Pá: 8:00 – 19:00</li>
+                        <li>So–Ne: 9:00 – 19:00</li>
+                    </ul>
+                    <h4 style="margin-top: 24px;">Kontakt</h4>
+                    <ul>
+                        <li>+420 777 560 652</li>
+                        <li>info@conacoffee.cz</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cona Coffee. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

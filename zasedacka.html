@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zasedací místnost | Cona Coffee</title>
+    <meta name="description" content="Sdílená zasedací místnost v Cona Coffee - prezentační displej, konferenční jednotka, Wi-Fi a catering přímo z kavárny.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Zasedací místnost | Cona Coffee">
+    <meta property="og:description" content="Moderně vybavená místnost s kompletním servisem přímo v srdci kavárny.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="zasedacka.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-main">CONA</span>
+            <span class="logo-sub">COFFEE</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="index.html#o-nas" class="nav-link">O nás</a></li>
+            <li><a href="index.html#nabidka" class="nav-link">Nabídka</a></li>
+            <li><a href="zasedacka.html" class="nav-link active">Zasedačka</a></li>
+            <li><a href="index.html#galerie" class="nav-link">Galerie</a></li>
+            <li><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <span class="section-label">Sdílená zasedací místnost</span>
+            <h1 class="page-hero-title">Profesionální prostor<br>pro vaše jednání</h1>
+            <p class="page-hero-desc">Moderně vybavená místnost s kompletním servisem přímo v srdci kavárny</p>
+        </div>
+    </section>
+
+    <!-- Vybavení -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Vybavení</span>
+                <h2 class="section-title">Vše, co potřebujete</h2>
+                <p class="section-desc">Naše zasedací místnost je plně vybavena pro produktivní meetingy a prezentace</p>
+            </div>
+
+            <div class="equipment-grid">
+                <div class="equipment-card animate-on-scroll">
+                    <div class="equipment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>Prezentační displej</h3>
+                    <p>Velký 55" 4K displej pro prezentace, video hovory a sdílení obsahu. Podporuje HDMI, USB-C i bezdrátové připojení.</p>
+                </div>
+
+                <div class="equipment-card animate-on-scroll">
+                    <div class="equipment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                    </div>
+                    <h3>Konferenční jednotka</h3>
+                    <p>Profesionální konferenční systém s 360° mikrofonem a kvalitním reproduktorem. Ideální pro online meetingy.</p>
+                </div>
+
+                <div class="equipment-card animate-on-scroll">
+                    <div class="equipment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+                            <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+                            <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+                            <line x1="12" y1="20" x2="12.01" y2="20"/>
+                        </svg>
+                    </div>
+                    <h3>Bezdrátové připojení</h3>
+                    <p>Vysokorychlostní Wi-Fi a bezdrátové sdílení obrazovky (AirPlay, Miracast, Chromecast).</p>
+                </div>
+
+                <div class="equipment-card animate-on-scroll">
+                    <div class="equipment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="7" width="20" height="14" rx="2"/>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                        </svg>
+                    </div>
+                    <h3>Whiteboard</h3>
+                    <p>Magnetický whiteboard pro brainstorming a poznámky. K dispozici fixy, magnety a mazací prostředky.</p>
+                </div>
+
+                <div class="equipment-card animate-on-scroll">
+                    <div class="equipment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3>Nabíjecí stanice</h3>
+                    <p>Elektrické zásuvky a USB porty u každého místa. Nabíjecí kabely USB-C a Lightning k zapůjčení.</p>
+                </div>
+
+                <div class="equipment-card animate-on-scroll">
+                    <div class="equipment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Kapacita 8 osob</h3>
+                    <p>Pohodlné sezení pro 6–8 osob u velkého jednacího stolu. Ergonomické židle pro celodenní komfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Služby -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="services-layout">
+                <div class="services-content animate-on-scroll">
+                    <span class="section-label">Catering & služby</span>
+                    <h2 class="section-title">Objednejte si přímo<br>do zasedačky</h2>
+                    <p class="services-text">Využijte kompletní nabídku naší kavárny přímo během vašeho jednání. Připravíme vám vše od ranní kávy po kompletní catering pro celý tým.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/>
+                            </svg>
+                        </div>
+                        <h3>Káva & nápoje</h3>
+                        <p>Specialty káva, čaje Harney & Sons, horká čokoláda, limonády</p>
+                        <span class="service-price">od 55 Kč/os</span>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>Snídaně</h3>
+                        <p>Čerstvé bagely, panini, ciabatty, bagety s různými náplněmi</p>
+                        <span class="service-price">od 115 Kč/os</span>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3>Dezerty</h3>
+                        <p>Domácí cheesecake, čokoládový dort, muffiny, cookies</p>
+                        <span class="service-price">od 55 Kč/ks</span>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <h3>Cateringový balíček</h3>
+                        <p>Kompletní catering na míru — nápoje, občerstvení a dezerty pro celý tým</p>
+                        <span class="service-price">na dotaz</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ceník -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Ceník</span>
+                <h2 class="section-title">Jednoduchý a transparentní</h2>
+                <p class="section-desc">Vyberte si variantu, která vám vyhovuje</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <h3>Hodinová</h3>
+                        <div class="pricing-amount">
+                            <span class="price">350</span>
+                            <span class="price-unit">Kč / hod</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Kompletní vybavení místnosti
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Wi-Fi a bezdrátové sdílení
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Pitná voda zdarma
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Catering z nabídky kavárny
+                        </li>
+                    </ul>
+                    <a href="https://app.servisflow.cz/booking/connacoffe" target="_blank" rel="noopener" class="btn btn-outline btn-full">Rezervovat</a>
+                </div>
+
+                <div class="pricing-card pricing-featured animate-on-scroll">
+                    <div class="pricing-badge">Nejoblíbenější</div>
+                    <div class="pricing-header">
+                        <h3>Půldenní</h3>
+                        <div class="pricing-amount">
+                            <span class="price">1 200</span>
+                            <span class="price-unit">Kč / 4 hod</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Vše z hodinové varianty
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Káva pro každého účastníka
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Drobné občerstvení
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Sleva 15% na další catering
+                        </li>
+                    </ul>
+                    <a href="https://app.servisflow.cz/booking/connacoffe" target="_blank" rel="noopener" class="btn btn-primary btn-full">Rezervovat</a>
+                </div>
+
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <h3>Celodenní</h3>
+                        <div class="pricing-amount">
+                            <span class="price">2 000</span>
+                            <span class="price-unit">Kč / den</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Vše z půldenní varianty
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Neomezená káva celý den
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Kompletní snídaně nebo oběd
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Sleva 25% na další catering
+                        </li>
+                    </ul>
+                    <a href="https://app.servisflow.cz/booking/connacoffe" target="_blank" rel="noopener" class="btn btn-outline btn-full">Rezervovat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="section section-alt" id="kontakt-zasedacka">
+        <div class="container">
+            <div class="zasedacka-contact animate-on-scroll">
+                <div class="zasedacka-contact-info">
+                    <span class="section-label">Kontakt</span>
+                    <h2 class="section-title">Máte dotaz?</h2>
+                    <p>Ozvěte se nám a rádi vám poradíme s výběrem varianty nebo zodpovíme jakýkoli dotaz ohledně zasedací místnosti.</p>
+                    <div class="zasedacka-contact-rows">
+                        <div class="contact-row">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <a href="tel:+420777560652">+420 777 560 652</a>
+                        </div>
+                        <div class="contact-row">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:info@conacoffee.cz">info@conacoffee.cz</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="zasedacka-cta">
+                    <a href="https://app.servisflow.cz/booking/connacoffe" target="_blank" rel="noopener" class="btn btn-primary btn-large">Rezervovat online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-main">CONA</span>
+                        <span class="logo-sub">COFFEE</span>
+                    </div>
+                    <p>Nevšední harmonie chutí v srdci Hradce Králové. Specialty káva, domácí dezerty a inspirativní prostor.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigace</h4>
+                    <ul>
+                        <li><a href="index.html#o-nas">O nás</a></li>
+                        <li><a href="index.html#nabidka">Nabídka</a></li>
+                        <li><a href="zasedacka.html">Zasedací místnost</a></li>
+                        <li><a href="index.html#galerie">Galerie</a></li>
+                        <li><a href="index.html#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Otevírací doba</h4>
+                    <ul>
+                        <li>Po–Pá: 8:00 – 19:00</li>
+                        <li>So–Ne: 9:00 – 19:00</li>
+                    </ul>
+                    <h4 style="margin-top: 24px;">Kontakt</h4>
+                    <ul>
+                        <li>+420 777 560 652</li>
+                        <li>info@conacoffee.cz</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cona Coffee. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
