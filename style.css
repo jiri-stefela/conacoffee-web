@@ -1003,6 +1003,39 @@ ul { list-style: none; }
     .hero-scroll {
         display: none;
     }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+    }
+
+    .about-features {
+        gap: 16px;
+    }
+
+    .contact-card {
+        padding: 24px;
+    }
+
+    .map-container iframe {
+        height: 280px;
+    }
+
+    .footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-grid {
+        gap: 24px;
+        margin-bottom: 24px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1018,4 +1051,50 @@ ul { list-style: none; }
     .hero-title {
         font-size: 2.5rem;
     }
+
+    .hero-desc {
+        font-size: 1rem;
+    }
+
+    .hero-label {
+        font-size: 0.7rem;
+    }
+
+    .menu-item {
+        padding: 18px;
+    }
+
+    .meeting-price-tag {
+        padding: 8px 14px;
+    }
+
+    .section {
+        padding: 48px 0;
+    }
+}
+
+/* ========================================
+   CREDIT BAR (DATAHOLD)
+   ======================================== */
+.credit-bar {
+    background: #050505;
+    text-align: center;
+    padding: 12px 24px;
+    border-top: 1px solid var(--border);
+}
+
+.credit-bar a {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+    transition: color var(--transition);
+}
+
+.credit-bar a:hover {
+    color: var(--primary);
+}
+
+.credit-bar strong {
+    color: var(--text-muted);
+    font-weight: 600;
 }
