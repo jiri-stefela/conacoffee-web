@@ -1077,16 +1077,19 @@ ul { list-style: none; }
    CREDIT BAR (DATAHOLD)
    ======================================== */
 .credit-bar {
-    background: #050505;
+    background: linear-gradient(135deg, #0d0d0d 0%, #141414 100%);
     text-align: center;
-    padding: 12px 24px;
-    border-top: 1px solid var(--border);
+    padding: 18px 24px;
+    border-top: 1px solid var(--border-accent);
 }
 
 .credit-bar a {
-    font-size: 0.7rem;
-    color: var(--text-dim);
-    letter-spacing: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    letter-spacing: 0.03em;
     transition: color var(--transition);
 }
 
@@ -1094,7 +1097,19 @@ ul { list-style: none; }
     color: var(--primary);
 }
 
+.credit-bar a::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: var(--primary);
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E") center/contain no-repeat;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E") center/contain no-repeat;
+    flex-shrink: 0;
+}
+
 .credit-bar strong {
-    color: var(--text-muted);
-    font-weight: 600;
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 0.08em;
 }
